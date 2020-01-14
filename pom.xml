@@ -6,7 +6,7 @@
     <packaging>pom</packaging>
     <groupId>com.rbkmoney</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <description>RBKmoney parent pom</description>
 
     <distributionManagement>
@@ -25,21 +25,7 @@
             <url>http://java-nexus.msk1.rbkmoney.net:8081/nexus/content/repositories/snapshots</url>
             <layout>default</layout>
         </snapshotRepository>
-    </distributionManagement>
-    
-    <repositories>
-        <repository>
-          <id>central</id>
-          <url>https://repo1.maven.org/maven2</url>
-          <releases><enabled>true</enabled></releases>
-          <snapshots><enabled>false</enabled></snapshots>
-        </repository>
-        <repository>
-          <id>github</id>
-          <name>GitHub OWNER Apache Maven Packages</name>
-          <url>https://maven.pkg.github.com/vulnbe/java-parent-pom</url>
-        </repository>
-    </repositories>     
+    </distributionManagement>    
     
     <build>
         <plugins>
