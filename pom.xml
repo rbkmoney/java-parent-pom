@@ -161,11 +161,6 @@
       <activation>
         <property>
           <name>env.MVN_PROFILE</name>
-          <value>public</value>
-        </property>
-        <property>
-          <name>env.MVN_PROFILE</name>
-          <value>private</value>
         </property>
       </activation>
       <build>
@@ -200,11 +195,6 @@
         <activeByDefault>true</activeByDefault>
         <property>
           <name>env.MVN_PROFILE</name>
-          <value>public</value>
-        </property>
-        <property>
-          <name>env.MVN_PROFILE</name>
-          <value>private</value>
         </property>
       </activation>
       <build>
